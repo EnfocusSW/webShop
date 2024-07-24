@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Object>
+    <ElementFields>
+        <Name Editor="hide" Type="string">webShop</Name>
+        <DisplayName Editor="hide" Type="string">Webshop</DisplayName>
+        <Version Editor="hide" Type="string">1</Version>
+        <Keywords Editor="hide" Type="string"/>
+        <Tooltip Editor="hide" Type="string"/>
+        <IncomingConnections Editor="hide">No</IncomingConnections>
+        <OutgoingConnections DetailedInfo="" Editor="hide" RequireAtLeastOne="Yes">Unlimited</OutgoingConnections>
+        <ConnectionType Editor="hide">TrafficLight</ConnectionType>
+        <FunctionsNodeJSScript Editor="hide"/>
+        <ExecutionMode Editor="hide">Concurrent</ExecutionMode>
+        <NumberOfSlots Editor="hide">Default</NumberOfSlots>
+        <ExecutionGroup Editor="hide"/>
+        <PerformanceTuning Editor="hide">No</PerformanceTuning>
+        <IdleAfterJob Editor="hide">0</IdleAfterJob>
+        <PositionInElementPane Editor="hide">Configurators</PositionInElementPane>
+        <SubcategoryInElementPane Editor="hide">&lt;ValueDescription Type=&quot;stringlist&quot;&gt;&lt;Value&gt;Custom&lt;/Value&gt;&lt;/ValueDescription&gt;</SubcategoryInElementPane>
+        <DispositionInElementPane Editor="hide" Type="number"/>
+        <Description Editor="hide" Type="string"/>
+        <Compatibility Editor="hide" Type="string"/>
+        <SupportInfo Editor="hide" Type="string"/>
+        <AppDiscovery Editor="hide" Type="string"/>
+        <FlowUpgradeWarning Editor="hide" Type="string"/>
+        <UpgradeMaximumVersion Editor="hide" Type="number"/>
+        <Connections Editor="hide" Type="string"/>
+        <SwitchModule Editor="hide" Type="string"/>
+        <ObsoleteProperties Editor="hide" Type="string"/>
+        <ObsoleteConnectionProperties Editor="hide" Type="string"/>
+        <apiKey Default="" DetailedInfo="" Editor="inline;sltextwithvar;scriptexp" LocalizedTagName="API key" Subtype="inline" Tooltip="" Type="password" UserDefined="true" Validation="Standard"></apiKey>
+        <method Default="Polling" DetailedInfo="" Editor="inline;sltextwithvar;scriptexp" LocalizedTagName="Method" Subtype="inline" Tooltip="" Type="enum:Polling;Webhook" UserDefined="true" Validation="Standard">Polling</method>
+        <pollingInterval Default="5" Dependency="method" DependencyCondition="Equals" Dependencyvalue="Polling" DetailedInfo="" Editor="inline;sltextwithvar;scriptexp" LocalizedTagName="Check every x minute(s)" Subtype="inline" Tooltip="" Type="number" UserDefined="true" Validation="Standard">5</pollingInterval>
+        <datasetType Default="XML" DetailedInfo="" Editor="inline;sltextwithvar;scriptexp" LocalizedTagName="Dataset type" Subtype="inline" Tooltip="" Type="enum:XML;JSON" UserDefined="true" Validation="Standard">XML</datasetType>
+        <datasetName Default="webShop" DetailedInfo="" Editor="inline;sltextwithvar;scriptexp" LocalizedTagName="Dataset Name" Subtype="inline" Tooltip="" Type="string" UserDefined="true" Validation="Standard">webShop</datasetName>
+    </ElementFields>
+    <ConnectionFields>
+        <Success AvailableFor="Data" Default="Yes" Editor="inline" LocalizedTagName="Success out" Type="bool">Yes</Success>
+        <Error AvailableFor="Data" Default="Yes" Editor="inline" LocalizedTagName="Error out" Type="bool">Yes</Error>
+    </ConnectionFields>
+    <ExtraProperties/>
+</Object>

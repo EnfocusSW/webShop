@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "axios": "^0.21.4",
+        "js2xmlparser": "^5.0.0",
+        "tmp": "^0.2.3"
+    },
+    "devDependencies": {
+        "@types/node": "16.11.59",
+        "@types/switch-scripting": "https://github.com/enfocus-switch/types-switch-scripting/archive/22.1.1.tar.gz",
+        "@types/tmp": "^0.2.6"
+    },
+    "license": "UNLICENSED",
+    "name": "webshop",
+    "private": true,
+    "version": "0.0.1"
+}
